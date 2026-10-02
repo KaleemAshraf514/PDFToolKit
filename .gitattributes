@@ -1,0 +1,3 @@
+# Keep the macOS launcher script in the repository, but do not count it
+# as an application source language in GitHub Linguist statistics.
+OPEN_PDF_TOOLKIT.command linguist-detectable=false
