@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D13809743334A9EBF69563 /* PDFToolkitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B91E2135D7FEB703CFB7 /* PDFToolkitApp.swift */; };
+		4293DCE4429B43FCEBEA83A1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386499E28ED89A5B8CCEBFF9 /* AppConfig.swift */; };
+		447A321F7078A91352D51011 /* AppDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7671A5725D6E013AEFD816 /* AppDestination.swift */; };
+		06D9C667F0C450A6A60212DC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1345EE7EB90AFF91BD3BA8 /* AppState.swift */; };
+		4BF91886AFA94FD56254FC0F /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9338377601B8A8F4D0710E76 /* AppTheme.swift */; };
+		EEE615F81F58BF094F05CA97 /* HistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847BF17E3532A200F032A409 /* HistoryItem.swift */; };
+		EBE69684AD5677E5431D2FBE /* PDFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3FE60DC48CFDF8C1BBB798 /* PDFTool.swift */; };
+		5F3372AD5C4FB407CDFA70B7 /* ProcessingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D246B9DC8EF0EE1E0E2CE477 /* ProcessingResult.swift */; };
+		7E2A95F4C8BF826EBFE00712 /* ToolOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276A8B0215E0F5E4E315016 /* ToolOptions.swift */; };
+		6AE3442A3C0042676A068527 /* EntitlementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45C6C9BF781BF15DF54E7BC /* EntitlementManager.swift */; };
+		7CC19D0B2AF42F0B80A65F7B /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610FF90C2828D16278A95B97 /* HistoryStore.swift */; };
+		01B5E3BBD3E2CB046EC0E3A5 /* PDFService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BBF26C551A6673F33AAB00 /* PDFService.swift */; };
+		AD44B70556AE96B8071C356F /* PanelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CF0429DF27DE3D39BC68CB /* PanelService.swift */; };
+		5DB47BB0CDBFCF1A361255E0 /* PrintService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322E0C3DE6BB2D5F773B9EC /* PrintService.swift */; };
+		33039E78EEA2649665AC6BC4 /* SharingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028488D151D609B31165F08C /* SharingService.swift */; };
+		25A0863286E45BCD8E85BAF9 /* TemporaryFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F839642D5B5A471894791 /* TemporaryFileManager.swift */; };
+		15CB3B450975B08776E125F4 /* DocumentPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322E611BEB7A2697244D3394 /* DocumentPreview.swift */; };
+		48F9EFA35C0A551D18842977 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8803C383A29CC238BC18746 /* PrimaryButton.swift */; };
+		B4D903BD8F125E2445CAF76C /* SidebarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63738073A4773D5F9836BE5E /* SidebarButton.swift */; };
+		93357AB2E62145F95D24D4EA /* TierBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187419968B1BBFC5BBFBBD25 /* TierBadge.swift */; };
+		3C28302658A8D1F99A7AE8E2 /* PDFEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E829E278AAB31E4C220CDB8 /* PDFEditorModel.swift */; };
+		A42A8F6EEB386DF529DF4882 /* PDFEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422C9DE84F96EA32AAE1838F /* PDFEditorView.swift */; };
+		9A5744F26370387212C9B4F6 /* PDFKitRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8D675D2D63797F69A26390 /* PDFKitRepresentable.swift */; };
+		AC0EAB6433BD19ABF845F6E6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F5FBA9D45126AFCCBBE695 /* RootView.swift */; };
+		8799489CFF5289310B70545B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43047CEA97CDDF363D7194A /* HistoryView.swift */; };
+		C1A6A023328CCB32529FB9EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D590973C60F9AEA52D58F3C /* HomeView.swift */; };
+		A4ED70029D6B27D3D4F71B3F /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B438F5F47521C70A920284F6 /* PremiumView.swift */; };
+		68A2A687784F655CB43FE892 /* ToolWorkflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36641DF64376C06C4A88737C /* ToolWorkflowView.swift */; };
+		7787F3CFEA979AC8078DEDF4 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27AACC78E6E932D9195161B /* ToolsView.swift */; };
+		A71B04192774704114878B8E /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D1303028DC7B381B2D095 /* SidebarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000003 /* PDFToolkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFToolkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B36B91E2135D7FEB703CFB7 /* PDFToolkitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFToolkitApp.swift; sourceTree = "<group>"; };
+		386499E28ED89A5B8CCEBFF9 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		DB7671A5725D6E013AEFD816 /* AppDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDestination.swift; sourceTree = "<group>"; };
+		DA1345EE7EB90AFF91BD3BA8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9338377601B8A8F4D0710E76 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		847BF17E3532A200F032A409 /* HistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryItem.swift; sourceTree = "<group>"; };
+		AE3FE60DC48CFDF8C1BBB798 /* PDFTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTool.swift; sourceTree = "<group>"; };
+		D246B9DC8EF0EE1E0E2CE477 /* ProcessingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingResult.swift; sourceTree = "<group>"; };
+		3276A8B0215E0F5E4E315016 /* ToolOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolOptions.swift; sourceTree = "<group>"; };
+		9679CFD0FB3FBD0F15287BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE7D7DBCE2FA7FD50139353 /* PDFToolkit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PDFToolkit.entitlements; sourceTree = "<group>"; };
+		F45C6C9BF781BF15DF54E7BC /* EntitlementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementManager.swift; sourceTree = "<group>"; };
+		610FF90C2828D16278A95B97 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		91BBF26C551A6673F33AAB00 /* PDFService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFService.swift; sourceTree = "<group>"; };
+		42CF0429DF27DE3D39BC68CB /* PanelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelService.swift; sourceTree = "<group>"; };
+		E322E0C3DE6BB2D5F773B9EC /* PrintService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintService.swift; sourceTree = "<group>"; };
+		028488D151D609B31165F08C /* SharingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingService.swift; sourceTree = "<group>"; };
+		6D1F839642D5B5A471894791 /* TemporaryFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryFileManager.swift; sourceTree = "<group>"; };
+		322E611BEB7A2697244D3394 /* DocumentPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPreview.swift; sourceTree = "<group>"; };
+		F8803C383A29CC238BC18746 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		63738073A4773D5F9836BE5E /* SidebarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarButton.swift; sourceTree = "<group>"; };
+		187419968B1BBFC5BBFBBD25 /* TierBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TierBadge.swift; sourceTree = "<group>"; };
+		1E829E278AAB31E4C220CDB8 /* PDFEditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditorModel.swift; sourceTree = "<group>"; };
+		422C9DE84F96EA32AAE1838F /* PDFEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditorView.swift; sourceTree = "<group>"; };
+		4E8D675D2D63797F69A26390 /* PDFKitRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitRepresentable.swift; sourceTree = "<group>"; };
+		52F5FBA9D45126AFCCBBE695 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B43047CEA97CDDF363D7194A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8D590973C60F9AEA52D58F3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B438F5F47521C70A920284F6 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		36641DF64376C06C4A88737C /* ToolWorkflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolWorkflowView.swift; sourceTree = "<group>"; };
+		F27AACC78E6E932D9195161B /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		9B6D1303028DC7B381B2D095 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE1439ACCFCEB73E6F9981A5 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4FDD7B635240BD562EBB49 = {
+			isa = PBXGroup;
+			children = (
+				65B1516D54D4D5CCCDA09C59 /* PDFToolkit */,
+				B23D89B2D2DF3745A003AEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B23D89B2D2DF3745A003AEB1 /* Products */ = {isa = PBXGroup; children = (A00000000000000000000003 /* PDFToolkit.app */,); name = Products; sourceTree = "<group>"; };
+		65B1516D54D4D5CCCDA09C59 /* PDFToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				7842B76871F0F465B07210DE /* App */,
+				B8315788EA117BF2B1E8B54A /* Core */,
+				4414F8627C12A012938F0F78 /* Models */,
+				35DDCEB76C0E767D2170160A /* Resources */,
+				A84ACE2C0A2680EF4A1D794E /* Services */,
+				AC193F65D2D3DDC35A131479 /* Views */,
+			);
+			path = PDFToolkit;
+			sourceTree = "<group>";
+		};
+		7842B76871F0F465B07210DE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B36B91E2135D7FEB703CFB7 /* PDFToolkitApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B8315788EA117BF2B1E8B54A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				386499E28ED89A5B8CCEBFF9 /* AppConfig.swift */,
+				DB7671A5725D6E013AEFD816 /* AppDestination.swift */,
+				DA1345EE7EB90AFF91BD3BA8 /* AppState.swift */,
+				9338377601B8A8F4D0710E76 /* AppTheme.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4414F8627C12A012938F0F78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847BF17E3532A200F032A409 /* HistoryItem.swift */,
+				AE3FE60DC48CFDF8C1BBB798 /* PDFTool.swift */,
+				D246B9DC8EF0EE1E0E2CE477 /* ProcessingResult.swift */,
+				3276A8B0215E0F5E4E315016 /* ToolOptions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		35DDCEB76C0E767D2170160A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9679CFD0FB3FBD0F15287BF3 /* Info.plist */,
+				9DE7D7DBCE2FA7FD50139353 /* PDFToolkit.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A84ACE2C0A2680EF4A1D794E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F45C6C9BF781BF15DF54E7BC /* EntitlementManager.swift */,
+				610FF90C2828D16278A95B97 /* HistoryStore.swift */,
+				91BBF26C551A6673F33AAB00 /* PDFService.swift */,
+				42CF0429DF27DE3D39BC68CB /* PanelService.swift */,
+				E322E0C3DE6BB2D5F773B9EC /* PrintService.swift */,
+				028488D151D609B31165F08C /* SharingService.swift */,
+				6D1F839642D5B5A471894791 /* TemporaryFileManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC193F65D2D3DDC35A131479 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				687974358B5910D79278CA0D /* Components */,
+				212BE9CD7D8A9F2E86A4232B /* Editor */,
+				D6B9383EC17E19F6537D4F06 /* Screens */,
+				52F5FBA9D45126AFCCBBE695 /* RootView.swift */,
+				9B6D1303028DC7B381B2D095 /* SidebarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		687974358B5910D79278CA0D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				322E611BEB7A2697244D3394 /* DocumentPreview.swift */,
+				F8803C383A29CC238BC18746 /* PrimaryButton.swift */,
+				63738073A4773D5F9836BE5E /* SidebarButton.swift */,
+				187419968B1BBFC5BBFBBD25 /* TierBadge.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		212BE9CD7D8A9F2E86A4232B /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				1E829E278AAB31E4C220CDB8 /* PDFEditorModel.swift */,
+				422C9DE84F96EA32AAE1838F /* PDFEditorView.swift */,
+				4E8D675D2D63797F69A26390 /* PDFKitRepresentable.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		D6B9383EC17E19F6537D4F06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B43047CEA97CDDF363D7194A /* HistoryView.swift */,
+				8D590973C60F9AEA52D58F3C /* HomeView.swift */,
+				B438F5F47521C70A920284F6 /* PremiumView.swift */,
+				36641DF64376C06C4A88737C /* ToolWorkflowView.swift */,
+				F27AACC78E6E932D9195161B /* ToolsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000002 /* PDFToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "PDFToolkit" */;
+			buildPhases = (3B7DFB0747829707F437ED7F /* Sources */, DE1439ACCFCEB73E6F9981A5 /* Frameworks */, 3519654520012F56AC9A0E86 /* Resources */,);
+			buildRules = (); dependencies = (); name = PDFToolkit; packageProductDependencies = (); productName = PDFToolkit;
+			productReference = A00000000000000000000003 /* PDFToolkit.app */; productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {
+				A00000000000000000000002 = { CreatedOnToolsVersion = 15.0; };
+			}; };
+			buildConfigurationList = DD445E777372328CDC08F332 /* Build configuration list for PBXProject "PDFToolkit" */;
+			compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,);
+			mainGroup = 8C4FDD7B635240BD562EBB49; productRefGroup = B23D89B2D2DF3745A003AEB1 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000002 /* PDFToolkit */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3519654520012F56AC9A0E86 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7DFB0747829707F437ED7F /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			05D13809743334A9EBF69563 /* PDFToolkitApp.swift in Sources */,
+			4293DCE4429B43FCEBEA83A1 /* AppConfig.swift in Sources */,
+			447A321F7078A91352D51011 /* AppDestination.swift in Sources */,
+			06D9C667F0C450A6A60212DC /* AppState.swift in Sources */,
+			4BF91886AFA94FD56254FC0F /* AppTheme.swift in Sources */,
+			EEE615F81F58BF094F05CA97 /* HistoryItem.swift in Sources */,
+			EBE69684AD5677E5431D2FBE /* PDFTool.swift in Sources */,
+			5F3372AD5C4FB407CDFA70B7 /* ProcessingResult.swift in Sources */,
+			7E2A95F4C8BF826EBFE00712 /* ToolOptions.swift in Sources */,
+			6AE3442A3C0042676A068527 /* EntitlementManager.swift in Sources */,
+			7CC19D0B2AF42F0B80A65F7B /* HistoryStore.swift in Sources */,
+			01B5E3BBD3E2CB046EC0E3A5 /* PDFService.swift in Sources */,
+			AD44B70556AE96B8071C356F /* PanelService.swift in Sources */,
+			5DB47BB0CDBFCF1A361255E0 /* PrintService.swift in Sources */,
+			33039E78EEA2649665AC6BC4 /* SharingService.swift in Sources */,
+			25A0863286E45BCD8E85BAF9 /* TemporaryFileManager.swift in Sources */,
+			15CB3B450975B08776E125F4 /* DocumentPreview.swift in Sources */,
+			48F9EFA35C0A551D18842977 /* PrimaryButton.swift in Sources */,
+			B4D903BD8F125E2445CAF76C /* SidebarButton.swift in Sources */,
+			93357AB2E62145F95D24D4EA /* TierBadge.swift in Sources */,
+			3C28302658A8D1F99A7AE8E2 /* PDFEditorModel.swift in Sources */,
+			A42A8F6EEB386DF529DF4882 /* PDFEditorView.swift in Sources */,
+			9A5744F26370387212C9B4F6 /* PDFKitRepresentable.swift in Sources */,
+			AC0EAB6433BD19ABF845F6E6 /* RootView.swift in Sources */,
+			8799489CFF5289310B70545B /* HistoryView.swift in Sources */,
+			C1A6A023328CCB32529FB9EE /* HomeView.swift in Sources */,
+			A4ED70029D6B27D3D4F71B3F /* PremiumView.swift in Sources */,
+			68A2A687784F655CB43FE892 /* ToolWorkflowView.swift in Sources */,
+			7787F3CFEA979AC8078DEDF4 /* ToolsView.swift in Sources */,
+			A71B04192774704114878B8E /* SidebarView.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		963E5652CFCAC549D359FB70 /* Debug */ = {isa = XCBuildConfiguration; 
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+			}; name = Debug; };
+		4D4AC1BC22434DA9B536571E /* Release */ = {isa = XCBuildConfiguration; 
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+			}; name = Release; };
+		1A9E10FAAD0A97FB97BCEC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PDFToolkit/Resources/PDFToolkit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PDFToolkit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.testapp;
+				PRODUCT_NAME = PDFToolkit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B79C83306C8ABF7373B5E45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PDFToolkit/Resources/PDFToolkit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PDFToolkit/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nt.testapp;
+				PRODUCT_NAME = PDFToolkit;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD445E777372328CDC08F332 /* Build configuration list for PBXProject "PDFToolkit" */ = {isa = XCConfigurationList; buildConfigurations = (963E5652CFCAC549D359FB70 /* Debug */, 4D4AC1BC22434DA9B536571E /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "PDFToolkit" */ = {isa = XCConfigurationList; buildConfigurations = (1A9E10FAAD0A97FB97BCEC18 /* Debug */, B79C83306C8ABF7373B5E45C /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}

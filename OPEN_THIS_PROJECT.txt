@@ -1,0 +1,5 @@
+After extracting the ZIP, double-click:
+
+PDFToolkit.xcodeproj
+
+That is the only project file you need to open in Xcode.

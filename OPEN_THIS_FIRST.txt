@@ -1,0 +1,4 @@
+1. Open PDFToolkit.xcodeproj in Xcode.
+2. Product > Clean Build Folder if you previously built an older revision.
+3. Run the PDFToolkit target.
+4. Premium test key: PDFToolkit/Core/AppConfig.swift
